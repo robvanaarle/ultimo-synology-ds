@@ -1,0 +1,23 @@
+{
+    "name": "robvanaarle/ultimo-synology-ds",
+    "description": "Implementation of the Synology Diskstation SDK in PHP",
+    "type": "library",
+    "keywords": [
+        "synology",
+        "diskstation",
+        "sdk",
+        "authentication"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+	  		{
+	    	  "name": "Rob van Aarle"
+	  		}
+	  ],
+    "autoload": {
+    		"psr-4": {
+       			"ultimo\\": "src/ultimo/"
+    		}
+  }
+}
+
