@@ -23,7 +23,7 @@ Currently only supports authentication.
 	
 	// log in as admin
 	if ($core->login("AdMiN", "secret")) {
-	  echo "Now logged in as " . $core->authenticate()";
+	  echo "Now logged in as " . $core->authenticate();
 	}
 	
 ## Background information
